@@ -16,7 +16,7 @@ package.
 The next step is configurating the transformer for your package. Add it to the 
 ```dependencies``` and ```transformers``` sections of your ```pubspec.yaml``` 
 and add the desired options. The following example converts ```psd``` files to 
-```png```:
+```png``` :
 
 ```
 transformers:
