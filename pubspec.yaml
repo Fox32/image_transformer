@@ -5,5 +5,5 @@ description: A Pub tranformer for converting between image formats.
 homepage: https://github.com/Fox32/image_transformer
 documentation: https://github.com/Fox32/image_transformer
 dependencies:
-  barback: any
+  barback: ">=0.12.0 <0.13.0"
   image: any
