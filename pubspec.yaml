@@ -1,9 +1,9 @@
 name: image_transformer
-version: 0.0.1
+version: 0.0.2
 author: Oliver Sand <oliver.sand@tentaclelabs.com>
 description: A Pub tranformer for converting between image formats.
 homepage: https://github.com/Fox32/image_transformer
 documentation: https://github.com/Fox32/image_transformer
 dependencies:
   barback: ">=0.12.0 <0.13.0"
-  image: any
+  image: ">=1.1.18 <1.2.0"

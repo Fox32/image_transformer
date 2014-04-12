@@ -42,7 +42,8 @@ Input only:
 
 - WebP
 - TIFF
-- PSD
+- Photoshop PSD
+- OpenEXR
 
 #### input_extensions
 
