@@ -28,7 +28,7 @@ import 'package:image/image.dart';
 
 /// A barback transformer that can be used to transform images between different
 /// file formats.
-class ImageTransformer extends Transformer with DeclaringTransformer {
+class ImageTransformer extends Transformer implements LazyTransformer {
   String _outputExtension = '.png';
   final _inputExtensions = <String>['.psd'];
 
