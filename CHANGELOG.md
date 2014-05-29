@@ -1,6 +1,10 @@
 image_transformer Changelog
 =================
 
+## Version 0.0.8 - May 29, 2014
+
+- Improve version constraint to barback
+
 ## Version 0.0.7 - Apr 17, 2014
 
 - Use LazyTransformer the right way
