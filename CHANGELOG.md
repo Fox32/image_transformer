@@ -1,6 +1,10 @@
 image_transformer Changelog
 =================
 
+## Version 0.0.9 - June 13, 2014
+
+- Fix readme
+
 ## Version 0.0.8 - May 29, 2014
 
 - Improve version constraint to barback
