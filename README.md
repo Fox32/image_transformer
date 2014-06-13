@@ -3,20 +3,20 @@ image_transformer
 
 A Pub tranformer for converting between image formats. Sometimes you need to
 convert the image files of your applications to different formats. If your
-designers hand their assets as ```PSD``` files, you need to convert them first
+designers hand their assets as `PSD` files, you need to convert them first
 to browser supported format. This packages provides a pub transformer to convert
 between different image formats.
 
 This package don't require any additional tools for image conversion due to the
-great work of Brendan Duncan and his [```image```](https://github.com/brendan-duncan/image) 
+great work of Brendan Duncan and his [`image`](https://github.com/brendan-duncan/image) 
 package.
 
 ### Configuration
 
 The next step is configurating the transformer for your package. Add it to the 
-```dependencies``` and ```transformers``` sections of your ```pubspec.yaml``` 
-and add the desired options. The following example converts ```psd``` files to 
-```png``` :
+`dependencies` and `transformers` sections of your `pubspec.yaml` 
+and add the desired options. The following example converts `psd` files to 
+`png` :
 
 ```
 transformers:
@@ -25,12 +25,12 @@ transformers:
        output_extension: '.png'
 ```
 
-You can add multiple instances of the transformer to your ```pubspec.yaml``` if 
+You can add multiple instances of the transformer to your `pubspec.yaml` if 
 you need the files in different output formats.
 
 #### Supported formats
 
-I try to keep track with the formats supported by the ```image``` package. At
+I try to keep track with the formats supported by the `image` package. At
 the moment the following formats are supported for both input and output formats:
 
 - PNG
